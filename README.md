@@ -1,1 +1,1 @@
-# Fourier
+# Fourier Techniques
