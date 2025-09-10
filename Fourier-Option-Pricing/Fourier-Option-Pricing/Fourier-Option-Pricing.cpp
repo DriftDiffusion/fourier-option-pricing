@@ -8,5 +8,6 @@ using namespace std;
 int main()
 {
 	cout << "Option Pricing Using Fourier Techniques" << endl;
+	cout << "Carr & Madan FFT method" << endl;
 	return 0;
 }
