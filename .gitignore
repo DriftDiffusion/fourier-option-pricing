@@ -1,0 +1,151 @@
+# =========================
+# C++ / CMake (cross-platform)
+# =========================
+# CMake build artifacts
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+DartConfiguration.tcl
+
+# Common build directories
+build/
+build-*/
+cmake-build-*/
+out/
+dist/
+bin/
+lib/
+
+# Ninja
+.ninja_deps
+.ninja_log
+build.ninja
+rules.ninja
+
+# Object/intermediate files
+*.o
+*.obj
+*.lo
+*.la
+*.il
+*.idb
+*.mod
+*.smod
+*.slo
+
+# Libraries / archives
+*.a
+*.lib
+*.la
+*.lo
+*.lai
+*.dll.a
+
+# Shared / static libs + import libs
+*.so
+*.dylib
+*.dll
+*.exp
+
+# Executables / runfiles
+*.exe
+*.out
+*.app
+*.run
+
+# Debug / profiling
+*.pdb
+*.ipdb
+*.pgd
+*.pgc
+*.gcda
+*.gcno
+*.profraw
+*.profdata
+*.dSYM/
+*.gcov
+
+# Logs
+*.log
+
+# =========================
+# Visual Studio / MSBuild
+# =========================
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sdf
+*.opensdf
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# VS workspace
+.vs/
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+x64/
+x86/
+ARM*/
+ipch/
+*.cachefile
+
+# VS Code (optional—uncomment if you don’t want to track workspace)
+#.vscode/
+
+# =========================
+# CLion / JetBrains
+# =========================
+.idea/
+cmake-build-debug*/
+cmake-build-release*/
+cmake-build-relwithdebinfo*/
+cmake-build-minsizerel*/
+
+# =========================
+# Packages / deps (adjust as needed)
+# =========================
+# vcpkg build outputs (keep vcpkg.json/lock tracked)
+vcpkg_installed/
+packages/
+installed/
+
+# Conan
+.conan/
+conanbuildinfo.*
+conaninfo.txt
+
+# =========================
+# OS junk
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# =========================
+# Tools / Misc
+# =========================
+# Coverage tools
+lcov.info
+
+# Cache
+.cache/
